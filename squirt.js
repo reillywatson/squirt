@@ -265,7 +265,7 @@ sq.host =  window.location.search.match('sq-dev') ?
     return word;
   };
 
-  // ORP: Optimal Recgonition Point
+  // ORP: Optimal Recognition Point
   function getORPIndex(word){
     var length = word.length;
     var lastChar = word[word.length - 1];
